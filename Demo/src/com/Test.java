@@ -12,5 +12,12 @@ public class Test {
 		s.setAddress("Pune");
 
 		System.out.println("Check Student Deatils:" + s);
+
+		Batch batch = new Batch();
+		batch.setBid(101);
+		batch.setBname("ABC");
+
+		System.out.println(" Batch Details: " + batch);
+
 	}
 }
